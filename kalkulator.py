@@ -1,10 +1,14 @@
-def dodaj ();
-	a = int(input())
-	b = int(input())
-	print (a+b)
+def dodaj (a, b);
+	wynik = a + b
+	return wynik
 
 def get_help():
 	print ('podaj dwie liczby a program je doda')
-	
+
 get_help()	
-dodaj ()
+
+a = int(input())
+b = int(input())
+wynik = dodaj(a,b)
+print(wynik)	
+
